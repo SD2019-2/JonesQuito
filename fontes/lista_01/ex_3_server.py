@@ -6,6 +6,6 @@ import pickle
 from utils import ServerSocket
 
 
-serverSocket = ServerSocket('129.213.164.45', 3000, 'tcp')
+serverSocket = ServerSocket('129.213.164.45', 8000, 'tcp')
 serverSocket.listener()
 
