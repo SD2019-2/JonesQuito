@@ -11,7 +11,7 @@ dados = {'op': 'maioridade', 'dados':pessoa}
 dados = pickle.dumps(dados)
 
 # Instancia um cliente socket e envia os dados
-cliente = ClienteSocket('localhost', 3000)
+cliente = ClienteSocket('129.213.164.45', 3000) #129.213.164.45
 cliente.enviar(dados)
 
 
